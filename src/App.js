@@ -1,8 +1,8 @@
 import React from 'react';
-import './components/ExpanceIteam';
-import Expances from './components/Expances';
+import './components/Expanses/ExpanceIteam';
+import Expances from './components/Expanses/Expances';
 
-function App() {
+const App = ()=>{
   // let expanceDate = new Date(2021, 3, 28);
   // let expanceTitle = "school fee";
   // let expanceAmt = 300;

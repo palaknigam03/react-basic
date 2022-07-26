@@ -1,8 +1,9 @@
 import './Card.css';
-import './ExpanceIteam.css';
+//import './ExpanceIteam.css';
+import '../Expanses/ExpanceIteam.css'
 import React from 'react';
 
-function Card({className, children}){
+const Card = ({className, children})=>{
     //console.log(className, "----CLASS----", children);
     //const classes = 'card-' + className;
     return(
